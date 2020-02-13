@@ -1,11 +1,5 @@
-#root{
-    font-family: montserrat;
-
-}
-
 .App {
   text-align: center;
-  font-family: Montserrat;
 }
 
 .App-logo {
@@ -18,26 +12,72 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.animation{
-
+body{
+    background-color: #3fd4bd;
 }
+.container{
+    font-family: monospace;
+    text-align: center;
+}
+
 .App-header {
-  background-color: white;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container-box{
+    max-width: 1080px;
 }
-img{
-    width: 200px;
-    height: auto;
+
+.box {
+    width: 30px;
+    box-sizing: content-box;
+    padding: 30px;
+    height: 30px;
+    box-shadow: 4px 5px;
+    text-align: center;
+    margin: 20px;
+    font-family: Coda;
+    font-weight: bold;
+}
+.boxes-contain{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    align-content: space-evenly;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 20px 10px 10px 10px;
+}
+/* .buttons {
+    width: 100px;
+   height: 100px;
+   background: #0088cc;
+   padding: 2%;
+   display: table-cell;
+   text-align: center;
+   vertical-align: bottom;
+
+} */
+.buttons{
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    height: 30px;
+    font-family: Modak;
+}
+.buttons:hover{
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    height: 30px;
+    background-color: black;
+    color: white;
 }
 
 @keyframes App-logo-spin {

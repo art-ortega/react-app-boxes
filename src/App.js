@@ -1,22 +1,17 @@
 import React,{Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header.js'
-import Content from './Content.js'
-import Footer from './Footer.js'
+import Box from './Square'
+import Button from './Button'
+
 
 class App extends Component {
     render(){
-  return (
-    <div>
-      <header className="App-header">
-        <Header/>
-        <Content/>
-        <Footer/>
-      </header>
-    </div>
+        return (
+            <div className ="button">
+                <Button />
+            </div>
   );
 }
 }
-
 export default App;
